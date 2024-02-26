@@ -7,6 +7,7 @@ import Wix from "../../Components/Wix/Wix";
 import Builder from "../../Components/Builder/Builder";
 import CDK from "../../Components/CDK/CDK";
 import RelatedDeals from "../../Components/RelatedDeals/RelatedDeals";
+import Footer from "../../Components/Shared/Footer/Footer";
 
 const Home = () => {
   return (
@@ -86,20 +87,21 @@ const Home = () => {
             </h1>
           </div>
           <div className="flex md:w-1/2 mt-5 md:mt-0 justify-end w-full">
-            <div className="flex">
+            <div className="flex w-full">
               <input
                 type="text"
                 name=""
                 id=""
-                className="bg-slate-100 rounded-l-lg"
+                className="bg-slate-100 rounded-l-lg w-[70%] py-2"
               />
-              <button className="text-[#FFFFFF] bg-[#1B88F4] py-2 px-4 text-sm rounded-r-lg">
+              <button className="text-[#FFFFFF] bg-[#1B88F4] py-2 px-7 text-sm rounded-r-lg">
                 Sign Up
               </button>
             </div>
           </div>
         </section>
       </div>
+      <Footer></Footer>
     </div>
   );
 };
