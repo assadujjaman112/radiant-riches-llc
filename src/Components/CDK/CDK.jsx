@@ -14,7 +14,7 @@ const CDK = () => {
       <div className="w-4/5 mx-auto lg:w-2/4 text-[#4B5665]">
         <p className="text-xs mt-6">
           <span className="font-semibold text-[#2C384A]">
-            CDK Resposive Builder:
+            CDK Responsive Builder:
           </span>
           An extensive library of widgets and apps, and detailed step-by-step
           guides
