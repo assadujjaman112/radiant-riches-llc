@@ -55,11 +55,11 @@ const CDK = () => {
           </p>
           <p className="flex items-center gap-2 text-xs text-[#4B5665]">
             <BiCheck className="rounded-full text-blue-500  bg-blue-200 "></BiCheck>{" "}
-            Out of box
+            Easy Use
           </p>
           <p className="flex items-center gap-2 text-xs text-[#4B5665]">
             <BiCheck className="rounded-full text-blue-500  bg-blue-200 "></BiCheck>{" "}
-            Documentation
+            Out of box
           </p>
         </div>
 
@@ -69,8 +69,8 @@ const CDK = () => {
       </div>
       <div className="w-4/5 mx-auto lg:w-1/4 text-center flex flex-col justify-between">
         <div>
-          <p className="text-[#074786] font-normal text-3xl">9.5</p>
-          <p className="text-[#074786] font-normal text-xs mt-2">Excellent</p>
+          <p className="text-[#074786] font-normal text-3xl">9.1</p>
+          <p className="text-[#074786] font-normal text-xs mt-2">Very Good</p>
           <div className="flex justify-center mt-2">
             <IoIosStar className="text-yellow-500"></IoIosStar>
             <IoIosStar className="text-yellow-500"></IoIosStar>
@@ -85,7 +85,7 @@ const CDK = () => {
           </button>
         </div>
       </div>
-      <div className="absolute top-7 -left-4 ">
+      <div className="absolute top-7 left-2 lg:-left-4 ">
         <div className=" h-7 w-7 rounded-full border flex justify-center items-center mt-2">
           <span className=" text-xs text-[#626E79]">4</span>
         </div>
