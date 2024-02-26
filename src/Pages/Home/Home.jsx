@@ -6,6 +6,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import Wix from "../../Components/Wix/Wix";
 import Builder from "../../Components/Builder/Builder";
 import CDK from "../../Components/CDK/CDK";
+import RelatedDeals from "../../Components/RelatedDeals/RelatedDeals";
 
 const Home = () => {
   return (
@@ -76,6 +77,27 @@ const Home = () => {
           <Builder></Builder>
           <Wix number="3" showBadge={false} rating="9.3"></Wix>
           <CDK></CDK>
+        </section>
+        <RelatedDeals></RelatedDeals>
+        <section className="mt-3 md:mt-6 lg:mt-10 py-5 flex flex-col md:flex-row justify-between items-center">
+          <div className="md:w-1/2">
+            <h1 className="text-[#5C6874] text-2xl lg:text-3xl">
+              Sign up and get exclusive special deals
+            </h1>
+          </div>
+          <div className="flex md:w-1/2 mt-5 md:mt-0 justify-end w-full">
+            <div className="flex">
+              <input
+                type="text"
+                name=""
+                id=""
+                className="bg-slate-100 rounded-l-lg"
+              />
+              <button className="text-[#FFFFFF] bg-[#1B88F4] py-2 px-4 text-sm rounded-r-lg">
+                Sign Up
+              </button>
+            </div>
+          </div>
         </section>
       </div>
     </div>
