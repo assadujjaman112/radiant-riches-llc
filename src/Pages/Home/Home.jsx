@@ -92,9 +92,9 @@ const Home = () => {
                 type="text"
                 name=""
                 id=""
-                className="bg-slate-100 rounded-l-lg w-[70%] py-2"
+                className="bg-slate-100 rounded-l-lg w-[70%]  py-2"
               />
-              <button className="text-[#FFFFFF] bg-[#1B88F4] py-2 px-7 text-sm rounded-r-lg">
+              <button className="text-[#FFFFFF] bg-[#1B88F4] py-2 px-7 md:px-5 lg:px-7 text-sm rounded-r-lg">
                 Sign Up
               </button>
             </div>
